@@ -1,0 +1,22 @@
+{
+  "name": "crawlNode",
+  "main": "app.js",
+  "version": "0.0.1",
+  "private": true,
+  "description": "violence information crawler",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.0",
+    "cheerio": "*",
+    "cron": "^1.1.0",
+    "debug": "*",
+    "express": "^4.13.4",
+    "mongojs": "^2.3.0",
+    "mysql": "*",
+    "node-geolocation": "^1.15.14",
+    "request": "*"
+  }
+}
